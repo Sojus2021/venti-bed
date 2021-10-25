@@ -1,0 +1,42 @@
+.container2 {
+	background-color: aqua;
+	display: flex;
+	text-decoration: darkblue;
+	justify-content: center;
+	margin: 0;
+}
+ul {
+	list-style-type: none;
+	justify-content: center;
+	padding-inline-start: 0px;
+}
+
+li1, li3 {
+	color: darkred;
+
+}	
+
+.card {
+	border: 2px 2px 2px 2px solid gold;
+	display: grid;
+	margin: 0;
+	grid-template-rows: 2fr;
+}
+.card-title p {
+	background-color: black;
+	color: white;
+	margin: 0;
+	padding: 0.25rem;
+	text-align: center;
+}
+.list {
+	padding-top: 0.5rem;
+}
+
+#individual {
+	background-color: lightgrey;
+	color: darkblue;
+	padding-top: 0rem;
+	padding-left: 0rem;
+	
+}

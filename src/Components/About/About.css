@@ -1,0 +1,6 @@
+.background-image-div {
+	min-height: 90vh;
+	height: 100%;
+	background: url('src/Components/Beds/ante-samarzija-F7m3QZJ_4mg-unsplash.jpg')
+		no-repeat center center fixed;
+}
