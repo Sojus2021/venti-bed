@@ -11,13 +11,13 @@ ul {
 	padding-inline-start: 0px;
 }
 
-li1, li3 {
-	color: darkred;
-
-}	
+li1,
+li3 {
+	/* color: blue; */
+}
 
 .card {
-	border: 2px 2px 2px 2px solid gold;
+	border: 2px 2px 2px 2px solid #d4c464;
 	display: grid;
 	margin: 0;
 	grid-template-rows: 2fr;
@@ -38,5 +38,4 @@ li1, li3 {
 	color: darkblue;
 	padding-top: 0rem;
 	padding-left: 0rem;
-	
 }

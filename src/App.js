@@ -2,6 +2,7 @@ import './App.css';
 import About from './Components/About/About';
 import Beds from './Components/Beds/Beds.js';
 import Search from './Components/Search/Search.js';
+// import Place from './Components/Place/Place.js';
 import { useState, useEffect } from 'react';
 import { Route, Link } from 'react-router-dom';
 import { Button, PrimaryButton } from './Components/Buttons';
@@ -31,11 +32,13 @@ function App() {
 				</Button>
 			</nav>
 
-			<div>
+			<div className='sheets'>
+		
+					<div id='mask-layer'>
 				<p>
-					Our VentiBed app displays data from U.S. states and territories in the
-					following categories:
-					<ul>
+					Our VentiBed app displays hospital utilization data from U.S. states and territories.
+				</p>
+					{/* <ul>
 						<li1>
 							Metric 1: Hospitals Reporting Critical Staffing Shortages Today;
 						</li1>
@@ -54,11 +57,13 @@ function App() {
 							Metric 4: ICU Beds Occupied By Adult COVID Patients/All Occupied
 							Adult ICU Beds (e.g. 0.196 = 19.6%)
 						</li4>
-					</ul>
-				</p>
+					</ul> */}
+					</div>
+				
 			</div>
 
-			<div className='App'>
+			<div
+				className='App'>
 				<Route path='/' exact render={() => <Beds beds={beds} />} />
 				<Route
 					path='/staffed/:state'
@@ -68,6 +73,20 @@ function App() {
 				<Route path='/About'>
 					<About />
 				</Route>
+				{/* <Doughnut
+					data={staffed.percent_of_inpatients_with_covid}
+					options={{
+						title: {
+							display: true,
+							text: 'COVID Patients Admitted To Hospital/All Patients Admitted',
+							fontSize: 20,
+						},
+						legend: {
+							display: true,
+							position: 'right',
+						},
+					}}
+				/> */}
 			</div>
 		</main>
 	);

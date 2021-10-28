@@ -1,5 +1,15 @@
 .App {
-  text-align: center;
+	text-align: center;
+}
+.sheets {
+	min-height: 70vh;
+	height: 50%;
+	background: url('/Users/byronsogie-thomas/bst-git/venti-bed/src/Components/Beds/ante-samarzija-F7m3QZJ_4mg-unsplash.jpg')
+		no-repeat center center fixed;
 }
 
-
+.mask-layer {
+	height: 28vh;
+	width: 25vh;
+	background-color: rgba(0, 0, 0, 0.5);
+}

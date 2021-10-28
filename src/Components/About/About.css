@@ -1,6 +1,12 @@
-.background-image {
-	min-height: 90vh;
+.background-image-div {
+	min-height: 100vh;
 	height: 100%;
-	background: url('src/Components/About/levi-meir-clancy-7eUL4pgLtT4-unsplash.jpg')
+	color: white;
+	background: url('/Users/byronsogie-thomas/bst-git/venti-bed/src/Components/Beds/frederic-koberl-CjgwW0VR3d0-unsplash (1).jpg')
 		no-repeat center center fixed;
+}
+.mask-layer {
+	height: 28vh;
+	width: 25vh;
+	background-color: rgba(0, 0, 0, 0.5);
 }

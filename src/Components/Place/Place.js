@@ -3,7 +3,7 @@ import {Doughnut} from 'react-chartjs-2';
 
 
 function Place (props) {
-    const hosp = {
+    const data = {
         labels: ['COVID Inpatients', 'All Inpatients '],
         datasets: [
             {
