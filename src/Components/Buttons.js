@@ -10,11 +10,11 @@ export const Button = styled.button`
 `;
 
 export const PrimaryButton = styled(Button)`
-	background-color: red;
+	background-color: whitesmoke;
 	border: bold;
 	color: white;
 
 	&:hover {
-		background-color: gold;
+		background-color: red;
 	}
 `;

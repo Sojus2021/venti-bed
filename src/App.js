@@ -15,7 +15,6 @@ function App() {
 		fetch(url)
 			.then((res) => res.json())
 			.then((json) => {
-				// let covidBeds = json;
 				console.log(json);
 				setBeds(json);
 			})

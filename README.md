@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+///// Summary
+
+/// Venti-Bed relies on API data from Healthdata.gov to display state records about hospital utilization. Specifically, the app displays a snapshot of how many inpatient beds are in use nationwide, including ICU beds. 
+
+/// Use Cases
+// As a user, I would like to see how many inpatient beds are available in a state.
+// As a user, I would like to see how many ICU beds are available to COVID patients in a state.
+// As a user, I would like to see how many hospitals are reporting critical staffing shortages in a given day.
