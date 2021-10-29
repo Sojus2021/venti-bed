@@ -1,10 +1,8 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useState } from 'react';
+// import {HorizontalBar} from './Components/HorizontalBar/HorizontalBar.js'
 import './Search.css';
-// import { MDBContainer } from 'mdbreact';
-// import { HorizontalBar } from 'react-chartjs-2';
-// import Place from 'src/Components/Place/Place.js';
 
 function Search(props) {
 	const [staffed, setStaffed] = useState(null);
@@ -22,23 +20,6 @@ function Search(props) {
 			})
 			.catch(console.error);
 	}, [state]);
-	// let data = {
-	// 	labels: ['A', 'B', 'C'],
-	// 	datasets: [
-	// 		{
-	// 			label: 'occupied',
-	// 			data: [
-	// 				`${staffed.percent_of_inpatients_with_covid}`,
-	// 				`${staffed.adult_icu_bed_utilization}`,
-	// 				`${staffed.adult_icu_bed_covid_utilization}`,
-	// 			],
-	// 			fill: true,
-			//  barPercentage: 1
-	// 			backgroundColor: 'red',
-
-	// 		},
-	// 	],
-	// };
 
 	if (!staffed) {
 		return <p>Loading state data...</p>;
@@ -54,9 +35,6 @@ function Search(props) {
 					</div>
 
 					<div className='list'>
-						{/* <MDBContainer>
-							<HorizontalBar data={data} />
-						</MDBContainer> */}
 						<li2>A: {staffed.percent_of_inpatients_with_covid}</li2>
 						<p></p>
 						<li3>B: {staffed.adult_icu_bed_utilization}</li3>
@@ -94,4 +72,5 @@ function Search(props) {
 		</div>
 	);
 }
+
 export default Search;

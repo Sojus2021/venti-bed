@@ -1,0 +1,7 @@
+input[type='text'] {
+	padding: 20px;
+	box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+.rounded-input {
+	border-radius: 20px;
+}
