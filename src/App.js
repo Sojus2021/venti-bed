@@ -36,7 +36,7 @@ function App() {
 		
 					<div id='mask-layer'>
 				<p>
-					Our VentiBed app displays hospital utilization data from U.S. states and territories.
+					Introducing VentiBed ...
 				</p>
 					{/* <ul>
 						<li1>

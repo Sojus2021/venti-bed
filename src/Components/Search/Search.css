@@ -11,9 +11,8 @@ ul {
 	padding-inline-start: 0px;
 }
 
-li1,
-li3 {
-	/* color: blue; */
+li1 {
+	color: darkred;
 }
 
 .card {

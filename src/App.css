@@ -13,3 +13,7 @@
 	width: 25vh;
 	background-color: rgba(0, 0, 0, 0.5);
 }
+p {
+  font-size: x-large;
+  text-align: center;
+}
