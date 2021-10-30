@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useState } from 'react';
-// import {HorizontalBar} from './Components/HorizontalBar/HorizontalBar.js'
 import './Search.css';
 
 function Search(props) {
