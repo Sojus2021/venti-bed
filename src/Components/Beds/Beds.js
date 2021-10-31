@@ -243,7 +243,7 @@ let data = [
 const str = `${data.abbreviation}`;
 console.log(str);
 const newStr = str.replace(`${data.abbreviation}`, `${data.name}`);
-console.log(newStr); 
+console.log(newStr);
 
 function Beds({ beds }) {
 	const [search, setSearch] = useState('');
@@ -268,34 +268,31 @@ function Beds({ beds }) {
 						}
 						return 0;
 					})
-					);
-				}
-			}, [beds, search]);
+			
+			);
+		}
+	}, [beds, search]);
 
-			let lower = newStr
 
 	if (!filterBeds) {
 		return <p>Loading state data...</p>;
-
-	} else if (lower === newStr)
-
-	return (
-		<section className='container'>
-			<input
-				type='text'
-				placeholder='type/click state abbreviation'
-				onChange={(e) => setSearch(e.target.value)}
-			/>
-
-			{filterBeds.map((staffed) => (
-				<Link to={`/staffed/${staffed.state}`} key={staffed.state}>
-					<div>
-						<p>{staffed.state}</p>
-					</div>
-				</Link>
-			))}
-		</section>
-	);
-}
-
+	} else
+		return (
+			<section className='container'>
+				<input
+					type='text'
+					placeholder='type/click state abbreviation'
+					onChange={(e) => setSearch(e.target.value)}
+				/>
+	
+				{filterBeds.map((staffed) => (
+					<Link to={`/staffed/${staffed.state}`} key={staffed.state}>
+						<div>
+							<p>{staffed.state}</p>
+						</div>
+					</Link>
+				))}
+			</section>
+		);
+};
 export default Beds;

@@ -32,17 +32,12 @@ function App() {
 			</nav>
 
 			<div className='sheets'>
-		
-					<div id='mask-layer'>
-				<p>
-					Introducing VentiBed ...
-				</p>
-					</div>
-				
+				<div>
+					<p>Introducing VentiBed ...</p>
+				</div>
 			</div>
 
-			<div
-				className='App'>
+			<div className='App'>
 				<Route path='/' exact render={() => <Beds beds={beds} />} />
 				<Route
 					path='/staffed/:state'
@@ -52,7 +47,6 @@ function App() {
 				<Route path='/About'>
 					<About />
 				</Route>
-				
 			</div>
 		</main>
 	);
