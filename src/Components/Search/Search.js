@@ -73,11 +73,10 @@ function Search(props) {
 			.then((json) => {
 				console.log(json);
 				let staffedBed = json.find((staffed) => staffed.state === state);
+				// staffed.fullName = data[staffed.state];
 				setStaffed(staffedBed);
-				
 			})
 			.catch(console.error);
-			
 	}, [state]);
 
 	if (!staffed) {

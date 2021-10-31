@@ -16,7 +16,7 @@ li1 {
 }
 
 .card {
-	border: 2px 2px 2px 2px solid #d4c464;
+	border: 2px 2px 2px 2px solid #bb5334;
 	display: grid;
 	margin: 0;
 	grid-template-rows: 2fr;
