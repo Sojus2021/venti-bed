@@ -266,13 +266,22 @@ function Beds({ beds }) {
 						if (firstEl.state > secondEl.state) {
 							return 1;
 						}
-						return 0;
+						return 0; 
+						
 					})
-			
-			);
-		}
+					
+					
+					);
+					let firstArray = data;
+					let secondArray = beds;
+	
+					let map = {};
+					firstArray.forEach(i => map[i] = false);
+					secondArray.forEach(i => map[i] === false && (map[i] = true));
+					let jsonArray = Object.keys(map).map(k => ({ name: k, matched: map[k] }));
+						return jsonArray;
+				}
 	}, [beds, search]);
-
 
 	if (!filterBeds) {
 		return <p>Loading state data...</p>;
@@ -284,7 +293,7 @@ function Beds({ beds }) {
 					placeholder='type/click state abbreviation'
 					onChange={(e) => setSearch(e.target.value)}
 				/>
-	
+
 				{filterBeds.map((staffed) => (
 					<Link to={`/staffed/${staffed.state}`} key={staffed.state}>
 						<div>
@@ -294,5 +303,5 @@ function Beds({ beds }) {
 				))}
 			</section>
 		);
-};
+}
 export default Beds;
