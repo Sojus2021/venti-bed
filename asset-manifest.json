@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/venti-bed/static/css/main.a7abed6c.chunk.css",
+    "main.js": "/venti-bed/static/js/main.a1054b6b.chunk.js",
+    "main.js.map": "/venti-bed/static/js/main.a1054b6b.chunk.js.map",
+    "runtime-main.js": "/venti-bed/static/js/runtime-main.ec82d21f.js",
+    "runtime-main.js.map": "/venti-bed/static/js/runtime-main.ec82d21f.js.map",
+    "static/css/2.8f96a205.chunk.css": "/venti-bed/static/css/2.8f96a205.chunk.css",
+    "static/js/2.4a97e726.chunk.js": "/venti-bed/static/js/2.4a97e726.chunk.js",
+    "static/js/2.4a97e726.chunk.js.map": "/venti-bed/static/js/2.4a97e726.chunk.js.map",
+    "index.html": "/venti-bed/index.html",
+    "static/css/2.8f96a205.chunk.css.map": "/venti-bed/static/css/2.8f96a205.chunk.css.map",
+    "static/css/main.a7abed6c.chunk.css.map": "/venti-bed/static/css/main.a7abed6c.chunk.css.map",
+    "static/js/2.4a97e726.chunk.js.LICENSE.txt": "/venti-bed/static/js/2.4a97e726.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/venti-bed/static/media/arrow_right.f7c6ac6d.svg",
+    "static/media/all.min.css": "/venti-bed/static/media/fa-solid-900.eeccf4f6.woff",
+    "static/media/App.css": "/venti-bed/static/media/frederic-koberl-CjgwW0VR3d0-unsplash (1).e8823172.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec82d21f.js",
+    "static/css/2.8f96a205.chunk.css",
+    "static/js/2.4a97e726.chunk.js",
+    "static/css/main.a7abed6c.chunk.css",
+    "static/js/main.a1054b6b.chunk.js"
+  ]
+}
