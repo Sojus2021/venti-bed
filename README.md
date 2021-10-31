@@ -1,3 +1,6 @@
+An API enabled app that tracks hospital utilization across the USA, specifically regarding staffing shortages and inpatient bed occupancy among adults with suspected or confirmed COVID. Data source: Healthdata.gov 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
