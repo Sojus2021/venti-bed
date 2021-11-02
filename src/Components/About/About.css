@@ -1,12 +1,9 @@
 .background-image-div1 {
 	min-height: 100vh;
 	height: 100%;
-	color: white;
-	/* background: url('/Users/byronsogie-thomas/bst-git/venti-bed/src/Components/Beds/frederic-koberl-CjgwW0VR3d0-unsplash (1).jpg')
-		no-repeat center center fixed; */
+	color: darkred;
+
 }
-/* .mask-layer {
-	height: 28vh;
-	width: 25vh;
-	background-color: rgba(0, 0, 0, 0.5);
-} */
+b {
+	font-size: 28px;
+}

@@ -1,3 +1,6 @@
+.container {
+	color: white;
+}
 input[type='text'] {
 	border: 0.85px;
 	margin: 2px;
@@ -6,4 +9,9 @@ input[type='text'] {
 }
 .rounded-input {
 	border-radius: 10px;
+}
+
+p1 {
+	color:darkred;
+	font-size: 18px;
 }

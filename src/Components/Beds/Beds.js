@@ -105,7 +105,7 @@ function Beds({ beds }) {
 				{filterBeds.map((staffed) => (
 					<Link to={`/staffed/${staffed.state}`} key={staffed.state}>
 						<div>
-							<p>{staffed.fullName}</p>
+							<p1>{staffed.fullName}</p1>
 						</div>
 					</Link>
 				))}
