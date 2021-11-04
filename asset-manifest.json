@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/venti-bed/static/css/main.2246f5a8.chunk.css",
-    "main.js": "/venti-bed/static/js/main.b411be79.chunk.js",
-    "main.js.map": "/venti-bed/static/js/main.b411be79.chunk.js.map",
+    "main.css": "/venti-bed/static/css/main.4cb4cd1c.chunk.css",
+    "main.js": "/venti-bed/static/js/main.0860f47f.chunk.js",
+    "main.js.map": "/venti-bed/static/js/main.0860f47f.chunk.js.map",
     "runtime-main.js": "/venti-bed/static/js/runtime-main.ec82d21f.js",
     "runtime-main.js.map": "/venti-bed/static/js/runtime-main.ec82d21f.js.map",
     "static/css/2.8f96a205.chunk.css": "/venti-bed/static/css/2.8f96a205.chunk.css",
@@ -10,17 +10,17 @@
     "static/js/2.4a97e726.chunk.js.map": "/venti-bed/static/js/2.4a97e726.chunk.js.map",
     "index.html": "/venti-bed/index.html",
     "static/css/2.8f96a205.chunk.css.map": "/venti-bed/static/css/2.8f96a205.chunk.css.map",
-    "static/css/main.2246f5a8.chunk.css.map": "/venti-bed/static/css/main.2246f5a8.chunk.css.map",
+    "static/css/main.4cb4cd1c.chunk.css.map": "/venti-bed/static/css/main.4cb4cd1c.chunk.css.map",
     "static/js/2.4a97e726.chunk.js.LICENSE.txt": "/venti-bed/static/js/2.4a97e726.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/venti-bed/static/media/ante-samarzija-F7m3QZJ_4mg-unsplash.cab5d9cd.jpg",
     "static/media/mdb.css": "/venti-bed/static/media/arrow_right.f7c6ac6d.svg",
-    "static/media/all.min.css": "/venti-bed/static/media/fa-solid-900.eeccf4f6.woff",
-    "static/media/App.css": "/venti-bed/static/media/frederic-koberl-CjgwW0VR3d0-unsplash (1).e8823172.jpg"
+    "static/media/all.min.css": "/venti-bed/static/media/fa-solid-900.eeccf4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.ec82d21f.js",
     "static/css/2.8f96a205.chunk.css",
     "static/js/2.4a97e726.chunk.js",
-    "static/css/main.2246f5a8.chunk.css",
-    "static/js/main.b411be79.chunk.js"
+    "static/css/main.4cb4cd1c.chunk.css",
+    "static/js/main.0860f47f.chunk.js"
   ]
 }
